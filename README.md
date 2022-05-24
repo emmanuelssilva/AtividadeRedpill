@@ -2,7 +2,7 @@
 
 Atividade em Sala - Livraria Redpill - Matéria:  Inteligência Artificial - Profº Leandro.
 
-# Proposta
+# Problema de Negócio
 
 A Empresa Redpill Bookstore está com problemas no seu sistema de
 recomendações, o sistema está recomendando apenas os livros que são
@@ -18,6 +18,9 @@ Não houve relato de problemas por parte da empresa, mas demos uma olhada nos
 dados disponibilizados e verificamos que grande parte dos usuários estão
 avaliando os e-books com uma nota baixa, esse é um problema que pode atrapalhar
 o relacionamento dos usuários com a Redpill.
+
+![Captura de tela 2022-05-23 233223](https://user-images.githubusercontent.com/43474592/169937327-d5857717-8375-45ce-b39d-146a220209ab.png)
+
 
 # Dados e Premissas
 
@@ -47,6 +50,9 @@ cálculo vai nos auxiliar na busca de usuários com os perfis similares. Atravé
 quanto mais próximo um usuário estiver do outro, melhor será o grau de recomendação do
 e-book.
 
+![Captura de tela 2022-05-23 233737](https://user-images.githubusercontent.com/43474592/169937435-f031ca7e-64c3-42fe-9272-2daaa57119bd.png)
+
+
 # Técnicas Aplicadas
 
 As técnicas que serão utilizadas nesse projeto são regras de associações, nós iremos
@@ -54,3 +60,5 @@ utilizar um sistema de recomendação popular para priorizar os e-books que tive
 melhores avaliações, iremos definir um ‘top’ 10 dos itens mais bem classificados para
 recomendar aos novos e frequentes usuários da Redpill. Também vamos utilizar o cálculo
 de distância euclidiana para recomendar itens com base na similaridade dos usuários.
+
+![Captura de tela 2022-05-23 233755](https://user-images.githubusercontent.com/43474592/169937466-70fe8393-0bf1-4faa-b4fe-2ec4e55818be.png)
